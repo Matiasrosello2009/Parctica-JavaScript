@@ -24,7 +24,7 @@ alert(2/5)
 
 alert ('Mi edad es '+(2023 - 2009)
 
-let = nombreAlumno 
+let = nombreAlumno
 
-nombreAlumno = prompt ('ingresa tu nombre') 
+nombreAlumno = prompt ('ingresa tu nombre')
 alert('Bienvenido '+ nombreAlumno)
