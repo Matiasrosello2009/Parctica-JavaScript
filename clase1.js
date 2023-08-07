@@ -22,5 +22,9 @@ alert(2-5)
 alert(2*5)
 alert(2/5) 
 
-let nombreVariable = 'Mi edad es'
-alert ('Mi edad es') = (2023 - 2009)
+alert ('Mi edad es '+(2023 - 2009)
+
+let = nombreAlumno 
+
+nombreAlumno = prompt ('ingresa tu nombre') 
+alert('Bienvenido '+ nombreAlumno)
