@@ -22,9 +22,20 @@ alert(2-5)
 alert(2*5)
 alert(2/5) 
 
-alert ('Mi edad es '+(2023 - 2009)
+alert ('Mi edad es '+(2023 - 2009))
 
 let = nombreAlumno
+let = apellidoAlumno
 
-nombreAlumno = prompt ('ingresa tu nombre')
-alert('Bienvenido '+ nombreAlumno)
+nombreAlumno = prompt('ingresa tu nombre')
+apellidoAlumno = prompt('Ingresa tu apellido')
+alert('Bienvenido '+ nombreAlumno + apellidoAlumno)
+
+let = edadAlumno
+
+edadAlumno = prompt ('Ingresa el año en que naciste')
+
+let diez = 10
+let tres = 3
+let resultadoMultiplicacion = diez * tres 
+alert ('El resultado de la multiplicacion de 10x3 es: '+ resultadoMultiplicacion) 
