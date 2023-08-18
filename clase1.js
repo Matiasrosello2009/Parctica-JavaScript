@@ -38,4 +38,10 @@ edadAlumno = prompt ('Ingresa el año en que naciste')
 let diez = 10
 let tres = 3
 let resultadoMultiplicacion = diez * tres 
-alert ('El resultado de la multiplicacion de 10x3 es: '+ resultadoMultiplicacion) 
+alert ('El resultado de la multiplicacion de 10x3 es: '+ resultadoMultiplicacion)
+
+function calcularCubo 
+{
+    let numCubo = 5 
+    let resultadoAlCubo = (numCubo * numCubo) * numCubo
+}
