@@ -50,37 +50,37 @@ function multiplicacion (a, b)
 {
     let resultadoMultiplicacion = a * b
     return resultadoMultiplicacion 
-    alert ('El resultado de la multiplicacion es '(resultadoMultiplicacion))
 }
+alert ('El resultado de la multiplicacion es '(resultadoMultiplicacion))
 
 function division (a, b)
 {
     let resultadoDivision = a / b
     return resultadoDivision 
-    alert ('El resultado de la division es '(resultadoDivision))
 }
+alert ('El resultado de la division es '(resultadoDivision))
 
 function suma (a, b)
 {
     let resultadoSuma = a + b
     return resultadoSuma
-    alert ('El resultado de la suma es '(resultadoSuma))
 }
+alert ('El resultado de la suma es '(resultadoSuma))
 
 function resta (a, b)
 {
     let resultadoResta = a - b
     return resultadoResta 
-    alert ('El resultado de la resta es '(resultadoResta))
 }
+alert ('El resultado de la suma es '(resultadoSuma))
 
 function ecuacion (x,a)
 {
     let a= 5
     let resultadoEcuacion = x * x + a
     return resultadoEcuacion 
-    alert('El resultado de la ecuacion es '(resultadoEcuacion))
 }
+alert('El resultado de la ecuacion es '(resultadoEcuacion))
 
 function saludo (nombre, apellido)
 {
