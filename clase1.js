@@ -40,8 +40,51 @@ let tres = 3
 let resultadoMultiplicacion = diez * tres 
 alert ('El resultado de la multiplicacion de 10x3 es: '+ resultadoMultiplicacion)
 
-function calcularCubo 
+function calcularCubo (numCubo)
 {
     let numCubo = 5 
-    let resultadoAlCubo = (numCubo * numCubo) * numCubo
+    let resultadoAlCubo = numCubo * numCubo * numCubo
+}
+
+function multiplicacion (a, b)
+{
+    let resultadoMultiplicacion = a * b
+    return resultadoMultiplicacion 
+    alert ('El resultado de la multiplicacion es '(resultadoMultiplicacion))
+}
+
+function division (a, b)
+{
+    let resultadoDivision = a / b
+    return resultadoDivision 
+    alert ('El resultado de la division es '(resultadoDivision))
+}
+
+function suma (a, b)
+{
+    let resultadoSuma = a + b
+    return resultadoSuma
+    alert ('El resultado de la suma es '(resultadoSuma))
+}
+
+function resta (a, b)
+{
+    let resultadoResta = a - b
+    return resultadoResta 
+    alert ('El resultado de la resta es '(resultadoResta))
+}
+
+function ecuacion (x,a)
+{
+    let a= 5
+    let resultadoEcuacion = x * x + a
+    return resultadoEcuacion 
+    alert('El resultado de la ecuacion es '(resultadoEcuacion))
+}
+
+function saludo (nombre, apellido)
+{
+    let nombre = prompt('Ingresa tu nombre')
+    let apellido = prompt('Ingresa tu apellido')
+    return 'Bienvenido/a '+ nombre + apellido 
 }
