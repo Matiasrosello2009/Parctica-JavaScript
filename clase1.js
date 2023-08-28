@@ -88,3 +88,26 @@ function saludoUsuario(nombreUsuario, apellidoUsuario)
     let apellidoUsuario = prompt('Ingresa tu apellido')
     return 'Bienvenido/a '+ nombre + apellido 
 }
+
+function calcularCuadrado(numCuadrado)
+{
+    let numCuadrado = 5
+    let resultadoAlCuadrado = numCuadrado * numCuadrado
+
+    return resultadoAlCuadrado
+}
+
+function operacionA (x, y)
+{
+    let x = 7
+    let y = 2
+    let resultadoOperacionA = x * x - y - 10
+
+    return resultadoOperacionA 
+}
+
+function operacionB (z)
+{
+    let z = 2
+    
+}
