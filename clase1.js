@@ -82,9 +82,9 @@ function ecuacion (x,a)
 }
 alert('El resultado de la ecuacion es '(resultadoEcuacion))
 
-function saludo (nombre, apellido)
+function saludo (nombreUsuario, apellidoUsuario)
 {
-    let nombre = prompt('Ingresa tu nombre')
-    let apellido = prompt('Ingresa tu apellido')
+    let nombreUsuario = prompt('Ingresa tu nombre')
+    let apellidoUsuario = prompt('Ingresa tu apellido')
     return 'Bienvenido/a '+ nombre + apellido 
 }
