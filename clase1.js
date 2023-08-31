@@ -111,3 +111,24 @@ function operacionB (z)
     let z = 2
     
 }
+
+function operacionC (w, y)
+{
+    let w = 5
+    let y = 3
+    let resultadoOperacionC = w * y * y + 20
+    return resultadoOperacionC 
+}
+
+function operacionD (x) 
+{
+    let x = 10
+    let resultadoOperacionD = (x/2)+5
+    return resultadoOperacionD 
+}
+
+function operacionE (v, w)
+
+{
+    
+}
