@@ -93,7 +93,6 @@ function calcularCuadrado(numCuadrado)
 {
     let numCuadrado = 5
     let resultadoAlCuadrado = numCuadrado * numCuadrado
-
     return resultadoAlCuadrado
 }
 
@@ -102,7 +101,6 @@ function operacionA (x, y)
     let x = 7
     let y = 2
     let resultadoOperacionA = x * x - y - 10
-
     return resultadoOperacionA 
 }
 
@@ -128,7 +126,16 @@ function operacionD (x)
 }
 
 function operacionE (v, w)
-
 {
-    
+    let v = 3
+    let w = 5
+    let resultadoOperacionE = v * v * v + w * w + 10
+    return resultadoOperacionE 
+}
+
+function operacionF (z)
+{
+    let z = 5
+    let resultadoOperacionF = (z * z * z * z * z * z * z * z * z * z) * 5
+    return resultadoOperacionF 
 }
