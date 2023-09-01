@@ -96,46 +96,38 @@ function calcularCuadrado(numCuadrado)
     return resultadoAlCuadrado
 }
 
-function operacionA (x, y)
+function operacionA (numA)
 {
-    let x = 7
-    let y = 2
-    let resultadoOperacionA = x * x - y - 10
+    let resultadoOperacionA = numA * numA - numA - 10
     return resultadoOperacionA 
 }
 
-function operacionB (z)
+function operacionB (numB)
 {
-    let z = 2
-    
+    let resultadoOperacionB = (numB - 3) * 2
+    return resultadoOperacionB 
 }
 
-function operacionC (w, y)
+function operacionC (numC)
 {
-    let w = 5
-    let y = 3
-    let resultadoOperacionC = w * y * y + 20
+    let resultadoOperacionC = numC * numC * numC + 20
     return resultadoOperacionC 
 }
 
-function operacionD (x) 
+function operacionD (numD) 
 {
-    let x = 10
-    let resultadoOperacionD = (x/2)+5
+    let resultadoOperacionD = (numD/2)+5
     return resultadoOperacionD 
 }
 
-function operacionE (v, w)
+function operacionE (numE)
 {
-    let v = 3
-    let w = 5
-    let resultadoOperacionE = v * v * v + w * w + 10
+    let resultadoOperacionE = numE * numE * numE + numE * numE + 10
     return resultadoOperacionE 
 }
 
-function operacionF (z)
+function operacionF (numF)
 {
-    let z = 5
-    let resultadoOperacionF = (z * z * z * z * z * z * z * z * z * z) * 5
+    let resultadoOperacionF = (numF * numF * numF * numF * numF * numF * numF * numF * numF * numF) * 5
     return resultadoOperacionF 
 }
