@@ -40,10 +40,11 @@ let tres = 3
 let resultadoMultiplicacion = diez * tres 
 alert ('El resultado de la multiplicacion de 10x3 es: '+ resultadoMultiplicacion)
 
-function calcularCubo(numCubo)
+function calcularCuboA(numCubo)
 {
     let numCubo = 5 
     let resultadoAlCubo = numCubo * numCubo * numCubo
+    return resultadoAlCubo 
 }
 
 function multiplicacion(a, b)
@@ -91,9 +92,14 @@ function saludoUsuario(nombreUsuario, apellidoUsuario)
 
 function calcularCuadrado(numCuadrado)
 {
-    let numCuadrado = 5
     let resultadoAlCuadrado = numCuadrado * numCuadrado
     return resultadoAlCuadrado
+}
+
+function calcularCuboB(numCubo)
+{
+    let resultadoAlCubo = numCubo * numCubo * numCubo
+    return resultadoAlCubo 
 }
 
 function operacionA (numA)
