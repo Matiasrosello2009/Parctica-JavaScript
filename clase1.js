@@ -40,6 +40,8 @@ let tres = 3
 let resultadoMultiplicacion = diez * tres 
 alert ('El resultado de la multiplicacion de 10x3 es: '+ resultadoMultiplicacion)
 
+//Trabajo practica Java-Script I// 
+
 function calcularCuboA(numCubo)
 {
     let numCubo = 5 
@@ -89,6 +91,8 @@ function saludoUsuario(nombreUsuario, apellidoUsuario)
     let apellidoUsuario = prompt('Ingresa tu apellido')
     return 'Bienvenido/a '+ nombre + apellido 
 }
+
+//Trabajo practica Java-Script II//
 
 function calcularCuadrado(numCuadrado)
 {
